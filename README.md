@@ -25,3 +25,23 @@ config = {
 
 4. Test your API using POSTMAN
 
+```bash
+GET {{baseUrl}}/status
+GET {{baseUrl}}/data
+PUT {{baseUrl}}/update_data/1
+# Sample
+{
+    "name": "Admin 1",
+    "email": "1_admin@test.com",
+    "status": 1
+}
+POST {{baseUrl}}/insert_data
+# Sample
+{
+    "name": "Admin 6",
+    "email": "admin6@test.com",
+    "status": 1
+}
+DELETE {{baseUrl}}/delete_data/3
+
+```
