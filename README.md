@@ -24,7 +24,8 @@ config = {
 <br />
 
 4. Test your API using [POSTMAN](https://www.postman.com/)
-   Replace {{baseUrl}} to your local host url or set in the postman
+
+Replace {{baseUrl}} to your local host url or set in the postman
 
 ```bash
 GET {{baseUrl}}/status
