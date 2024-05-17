@@ -23,11 +23,13 @@ config = {
 ```
 <br />
 
-4. Test your API using POSTMAN
+4. Test your API using [POSTMAN](https://www.postman.com/)
 
 ```bash
 GET {{baseUrl}}/status
+# return 200 status code - if successful
 GET {{baseUrl}}/data
+# return list of the data
 PUT {{baseUrl}}/update_data/1
 # Sample
 {
